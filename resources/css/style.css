@@ -68,14 +68,21 @@ section{
 }
 
 .featured-regional-ramen h1{
-    margin-right: 20px;
+    margin-left: 2em;
 }
 
 .box-image{
-    width: 15em;
+    width: 20em;
     height: 12em;
     background-color: white;
 }
+
+.overlap-a{
+    transform: translateX(150px);
+
+}
+
+
 
 .box-featured{
     width: 21.3em;
@@ -87,7 +94,6 @@ section{
     height: 0; 
     border-top: 400px solid gray;
     border-bottom: 400px solid gray; 
-    
     border-right:750px solid white; 
   }
 
@@ -101,6 +107,10 @@ section{
     background-color: darkgrey;
 }
 
+.featured-story h1{
+    margin-right: 2em;
+}
+
 .arrow-right {
     width: 0; 
     height: 0; 
@@ -110,8 +120,8 @@ section{
     border-left:750px solid white; 
   }
 
-  .featured-story h1{
-    margin-left: 20px;
+  .overlap-b{
+    transform: translateX(-150px);
 }
 
 /* Footer */
