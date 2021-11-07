@@ -3,3 +3,130 @@
 *{
     box-sizing: border-box;
 }
+
+
+html{
+    font-family: 'Dongle', 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+header, section, footer{
+    width: 100%;
+}
+
+
+/* Header */
+
+.top-logo{
+    
+    width: 250px;
+    margin: auto;
+    height: 250px;
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+}
+
+.top-logo h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: burlywood;
+}
+
+
+.menu-main ul{
+    display: flex;
+}
+
+.menu-main li{
+    margin-right: 1em;
+}
+
+.top-header{
+    background-color: darkgrey;
+    height: 625px;
+}
+
+/* Featured regional ramen */
+section{
+    height: 625px;
+}
+
+.featured-regional-ramen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: grey; 
+}
+
+.featured-regional-ramen h1{
+    margin-right: 20px;
+}
+
+.box-image{
+    width: 15em;
+    height: 12em;
+    background-color: white;
+}
+
+.box-featured{
+    width: 21.3em;
+    height: 26em;
+}
+
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 400px solid gray;
+    border-bottom: 400px solid gray; 
+    
+    border-right:750px solid white; 
+  }
+
+
+
+/* Featured Story*/
+
+.featured-story{
+    display: flex;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 400px solid darkgray;
+    border-bottom: 400px solid darkgray; 
+    
+    border-left:750px solid white; 
+  }
+
+  .featured-story h1{
+    margin-left: 20px;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 50px;
+}
+
+.footer-position{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.footer-position p{
+    margin-right: 1em;
+}
