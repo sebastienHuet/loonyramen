@@ -1,0 +1,12 @@
+/* Main content stories page */
+#chefs {
+    display: block;
+  }
+  
+#restos {
+    display: none;
+  }
+  
+#franchises {
+    display: none;
+  }

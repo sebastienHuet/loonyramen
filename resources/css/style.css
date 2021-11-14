@@ -154,7 +154,7 @@ footer {
 }
 
 
-/* Side Menu wisdom and cooking pages*/
+/* Side Menu*/
 
 .side-menu {
   width: 350px;
@@ -171,48 +171,4 @@ footer {
   font-size: 1.25em;
 }
 
-/* Main content wisdom page */
-#ramen {
-  display: block;
-}
 
-#basic-ramen {
-  display: none;
-}
-
-#basic-topping {
-  display: none;
-}
-
-#noodles {
-  display: none;
-}
-
-#how-to-eat {
-  display: none;
-}
-
-#how-to-order {
-  display: none;
-}
-
-#ramencyclopedia {
-  display: none;
-}
-
-/* Main content cooking page */
-#soup {
-  display: block;
-}
-
-#make-noodles {
-  display: none;
-}
-
-#topping-recipes {
-  display: none;
-}
-
-#assemblage {
-  display: none;
-}

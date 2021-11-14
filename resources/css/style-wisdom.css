@@ -1,0 +1,30 @@
+/* Main content wisdom page */
+#ramen {
+    display: block;
+  }
+  
+  #basic-ramen {
+    display: none;
+  }
+  
+  #basic-topping {
+    display: none;
+  }
+  
+  #noodles {
+    display: none;
+  }
+  
+  #how-to-eat {
+    display: none;
+  }
+  
+  #how-to-order {
+    display: none;
+  }
+  
+  #ramencyclopedia {
+    display: none;
+  }
+  
+  

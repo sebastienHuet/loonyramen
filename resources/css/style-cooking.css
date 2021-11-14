@@ -1,0 +1,16 @@
+/* Main content cooking page */
+#soup {
+    display: block;
+  }
+  
+  #make-noodles {
+    display: none;
+  }
+  
+  #topping-recipes {
+    display: none;
+  }
+  
+  #assemblage {
+    display: none;
+  }

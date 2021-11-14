@@ -1,0 +1,36 @@
+/* Main content regional ramen page */
+#hokkaido {
+    display: block;
+  }
+  
+  #tohoku {
+    display: none;
+  }
+  
+  #kanto {
+    display: none;
+  }
+  
+  #chubu {
+    display: none;
+  }
+
+  #chugoku {
+    display: none;
+  }
+
+  #kinki {
+    display: none;
+  }
+
+  #kyushu {
+    display: none;
+  }
+
+  #shikoku {
+    display: none;
+  }
+
+  #okinawa {
+    display: none;
+  }
