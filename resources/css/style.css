@@ -1,209 +1,198 @@
 /* Universal Styles */
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-
-html{
-    font-family: 'Dongle', 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
+html {
+  font-family: "Dongle", "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
 }
 
-header, section, footer{
-    width: 100%;
+header,
+section,
+footer {
+  width: 100%;
 }
-
 
 /* Header */
 
-.top-logo{
-    
-    width: 250px;
-    margin: auto;
-    height: 250px;
-    background-color: cornsilk;
-    display: flex;
-    align-items: center;
+.top-logo {
+  width: 250px;
+  margin: auto;
+  height: 250px;
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
 }
 
-.top-logo h1{
-    text-align: center;
-    font-size: 3em;
+.top-logo h1 {
+  text-align: center;
+  font-size: 3em;
 }
 
-.menu-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 75px;
-    background-color: burlywood;
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: burlywood;
 }
 
-
-.menu-main ul{
-    display: flex;
+.menu-main ul {
+  display: flex;
 }
 
-.menu-main li{
-    margin-right: 1em;
+.menu-main li {
+  margin-right: 1em;
 }
 
-.top-header{
-    background-color: darkgrey;
-    height: 625px;
+.top-header {
+  background-color: white;
+  height: 625px;
 }
 
 /* Featured regional ramen */
-section{
-    height: 625px;
+section {
+  height: 625px;
 }
 
-.featured-regional-ramen{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: grey; 
+.featured-regional-ramen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: burlywood;
 }
 
-.featured-regional-ramen h1{
-    margin-left: 2em;
+.featured-regional-ramen h1 {
+  margin-left: 2em;
 }
 
-.box-image{
-    width: 20em;
-    height: 12em;
-    background-color: white;
+.box-image {
+  width: 20em;
+  height: 12em;
+  background-color: white;
 }
 
-.overlap-a{
-    transform: translateX(150px);
-
+.overlap-a {
+  transform: translateX(150px);
 }
 
-
-
-.box-featured{
-    width: 21.3em;
-    height: 26em;
+.box-featured {
+  width: 21.3em;
+  height: 26em;
 }
 
 .arrow-left {
-    width: 0; 
-    height: 0; 
-    border-top: 400px solid gray;
-    border-bottom: 400px solid gray; 
-    border-right:750px solid white; 
-  }
-
-
+  width: 0;
+  height: 0;
+  border-top: 400px solid cornsilk;
+  border-bottom: 400px solid cornsilk;
+  border-right: 750px solid white;
+}
 
 /* Featured Story*/
 
-.featured-story{
-    display: flex;
-    align-items: center;
-    background-color: darkgrey;
+.featured-story {
+  display: flex;
+  align-items: center;
+  background-color: burlywood;
 }
 
-.featured-story h1{
-    margin-right: 2em;
+.featured-story h1 {
+  margin-right: 2em;
 }
 
 .arrow-right {
-    width: 0; 
-    height: 0; 
-    border-top: 400px solid darkgray;
-    border-bottom: 400px solid darkgray; 
-    
-    border-left:750px solid white; 
-  }
+  width: 0;
+  height: 0;
+  border-top: 400px solid cornsilk;
+  border-bottom: 400px solid cornsilk;
 
-  .overlap-b{
-    transform: translateX(-150px);
+  border-left: 750px solid white;
+}
+
+.overlap-b {
+  transform: translateX(-150px);
 }
 
 /* Footer */
-footer{
-    width: 100%;
-    height: 50px;
+footer {
+  width: 100%;
+  height: 50px;
 }
 
-.footer-position{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    
+.footer-position {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.footer-position p{
-    margin-right: 1em;
+.footer-position p {
+  margin-right: 1em;
 }
 
 /* Ramen Wisdom page*/
 /*2 columns layout */
 
-.two-col-layout{
-    display: flex;    
+.two-col-layout {
+  display: flex;
 }
 
-.main-content{
-    margin-top: 250px;
-    padding: 1.5em;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
+.main-content {
+  margin-top: 250px;
+  padding: 1.5em;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
 }
 
-.main-content p{
-    line-height: 1.5;
+.main-content p {
+  line-height: 1.5;
 }
-
-
 
 /* Side Menu */
 
-.side-menu{
-    width: 340px;
-    max-height: 100%;
-    background-color: cornsilk;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.side-menu {
+  width: 340px;
+  max-height: 100%;
+  background-color: cornsilk;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.side-menu li{
-    text-align: center;
-    line-height: 2;
+.side-menu li {
+  text-align: center;
+  line-height: 2;
 }
 
 /* Main content */
-#ramen{
-    display: block;
+#ramen {
+  display: block;
 }
 
-#basic-ramen{
-    display: none;
+#basic-ramen {
+  display: none;
 }
 
-#basic-topping{
-    display: none;
+#basic-topping {
+  display: none;
 }
 
-#noodles{
-    display: none;
+#noodles {
+  display: none;
 }
 
-#how-to-eat{
-    display: none;
+#how-to-eat {
+  display: none;
 }
 
-#how-to-order{
-    display: none;
+#how-to-order {
+  display: none;
 }
 
-#ramencyclopedia{
-    display: none;
+#ramencyclopedia {
+  display: none;
 }
-
