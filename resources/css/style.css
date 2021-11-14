@@ -46,6 +46,7 @@ footer {
 
 .menu-main li {
   margin-right: 1em;
+  font-size: 1.25em;
 }
 
 .top-header {
@@ -152,10 +153,11 @@ footer {
   line-height: 1.5;
 }
 
-/* Side Menu */
+
+/* Side Menu wisdom and cooking pages*/
 
 .side-menu {
-  width: 340px;
+  width: 350px;
   max-height: 100%;
   background-color: cornsilk;
   display: flex;
@@ -166,9 +168,10 @@ footer {
 .side-menu li {
   text-align: center;
   line-height: 2;
+  font-size: 1.25em;
 }
 
-/* Main content */
+/* Main content wisdom page */
 #ramen {
   display: block;
 }
@@ -194,5 +197,22 @@ footer {
 }
 
 #ramencyclopedia {
+  display: none;
+}
+
+/* Main content cooking page */
+#soup {
+  display: block;
+}
+
+#make-noodles {
+  display: none;
+}
+
+#topping-recipes {
+  display: none;
+}
+
+#assemblage {
   display: none;
 }
