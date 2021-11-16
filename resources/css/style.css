@@ -61,7 +61,6 @@ section {
 
 .featured-regional-ramen {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   background-color: burlywood;
 }
@@ -100,8 +99,9 @@ section {
 }
 
 .right-text{
-  width: 21.3em;
-  margin-left: 15em;;
+  width: 350px;
+  position: relative;
+  left: 350px;
 }
 
 
@@ -126,9 +126,10 @@ section {
 }
 
 .left-text{
-  width: 21.3em;
+  width: 350px;
+  position: relative;
+  right: 650px;
 }
-
 
 .overlap-b {
   transform: translateX(-150px);
