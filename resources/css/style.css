@@ -76,6 +76,12 @@ section {
   background-color: white;
 }
 
+.img-top{
+  width:20em;
+  height: 12em;
+  padding: 0.5em;
+}
+
 .overlap-a {
   transform: translateX(150px);
 }
@@ -92,6 +98,12 @@ section {
   border-bottom: 400px solid cornsilk;
   border-right: 750px solid white;
 }
+
+.right-text{
+  width: 21.3em;
+  margin-left: 15em;;
+}
+
 
 /* Featured Story*/
 
@@ -110,9 +122,13 @@ section {
   height: 0;
   border-top: 400px solid cornsilk;
   border-bottom: 400px solid cornsilk;
-
   border-left: 750px solid white;
 }
+
+.left-text{
+  width: 21.3em;
+}
+
 
 .overlap-b {
   transform: translateX(-150px);
