@@ -17,6 +17,7 @@ footer {
 }
 
 /* Header */
+/* Menu */
 
 .top-logo {
   width: 250px;
@@ -57,9 +58,27 @@ footer {
   font-size: 1.25em;
 }
 
+/* Top banner */
+
 .top-header {
   background-color: white;
   height: 625px;
+  display: flex;
+}
+
+.top-banner-box{
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.topbanner-img{
+  width: 100%;
+  height: auto;
+  padding: 0.75em;
+  filter: grayscale(0.45);
 }
 
 /* Section */
