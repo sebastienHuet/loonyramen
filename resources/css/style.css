@@ -62,8 +62,15 @@ footer {
 
 .top-header {
   background-color: white;
-  height: 625px;
+  height: 550px;
   display: flex;
+}
+
+.banner-title{
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+
 }
 
 .top-banner-box{
