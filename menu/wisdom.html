@@ -13,11 +13,15 @@
       href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/4992b45ef8.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Ramen Wisdom</title>
   </head>
   <body>
     <header>
-      <div class="menu-container sticky">
+      <div class="menu-container">
         <div class="top-logo">
           <h1>
             <a href="../index.html">Loony Ramen</a>
@@ -37,7 +41,18 @@
       <nav class="side-menu">
         <ul>
           <li><a id="ramen-link" href="#">What is Ramen?</a></li>
-          <li><a id="basic-link" href="#">Basic 7 types of Ramen</a></li>
+          <li class="dropdown-btn">
+            <a id="basic-link" href="#">Basic 7 types of Ramen </a>
+          </li>
+          <div class="dropdown-ramen">
+            <li><a href="#shoyu-ramen">Shoyu Ramen</a></li>
+            <li><a href="#shio-ramen">Shio Ramen</a></li>
+            <li><a href="#miso-ramen">Miso Ramen</a></li>
+            <li><a href="#tonkotsu-ramen">Tonkotsu Ramen</a></li>
+            <li><a href="#toripaitan-ramen">Toripaitan Ramen</a></li>
+            <li><a href="#tsukemen">Tsukemen</a></li>
+            <li><a href="#mazesoba">Mazesoba</a></li>
+          </div>
           <li><a id="topping-link" href="#">Basic Ramen Topping</a></li>
           <li><a id="noodles-link" href="#">Ramen Noodles</a></li>
           <li><a id="eat-link" href="#">How to eat Ramen</a></li>
@@ -46,15 +61,28 @@
       </nav>
       <section class="main-content">
         <div id="ramen">
+          <h1 class="basicRamen-title">
+            What comes to mind when thinking about Ramen ...
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempora
-            saepe nihil quidem fugiat, incidunt quibusdam voluptates cum
-            commodi. Ducimus tenetur blanditiis aperiam pariatur. Unde vel rem
-            officiis numquam necessitatibus.
+            In Japan, apart from ramen, various type of cooking using noodles
+            such as udon or soba can be found. The big difference is that
+            Chinese noodles are used when cooking ramen. The Chinese noodles are
+            made using 'kansui', a special alkaline solution that will give a
+            different color, mouthfeel and flavor to the noodles. A few
+            restaurants are making their noodles without 'kansui', but generally
+            speaking noodles made without 'kansui' are classified in the udon
+            category in Japan.
+          </p>
+          <p>
+            In a nutshell, you can guess that the most important thing in Ramen
+            are the noodles. When thinking about ramen we always have a tendency
+            to think about the soup, but you should definitely pay attention to
+            the noodles' flavor when eating ramen.
           </p>
         </div>
         <div id="basic-ramen">
-          <div class="basicRamen">
+          <div id="shoyu-ramen" class="basicRamen">
             <div class="basicRamenPhoto">
               <img
                 class="basicRamen-image"
@@ -82,7 +110,7 @@
               </p>
             </article>
           </div>
-          <div class="basicRamen">
+          <div id="shio-ramen" class="basicRamen">
             <div class="basicRamenPhoto">
               <img
                 class="basicRamen-image"
@@ -93,24 +121,20 @@
             <article class="basicRamen-description">
               <h1 class="basicRamen-title">Shio Ramen</h1>
               <p>
-                The most common Ramen that you can eat in Japan is the
-                <strong>Shoyu Ramen</strong>. It seems that the first ramen shop
-                in Asakusa, Tokyo was offering a shoyu ramen more than 100 years
-                ago.
+                Generally speacking, a shio ramen is a lightly seasoned ramen
+                soup using salt in its sauce. Because salt doesn't have a color
+                like shoyu or miso, the dashi soup can stay transparent.
               </p>
               <p>
-                Shoyu Ramen is made by mixing the dashi soup, extracted of pork
-                bones, chicken bones or seafood among others, with the
-                shoyu-based sauce. However, remember that there are many
-                varieties of shoyu and dashi soup depending on the ramen
-                restaurant or the region. That's why shoyu ramen has a wide
-                variety of flavors. And depending on which type of ramen noodles
-                you are mixing with the soup, the eating exprience can differ
-                big-time.
+                When comparing shio ramen to shoyu ramen or miso ramen, it is
+                easier to express the characteristics of each ingredients.　It
+                is said that you can't cheat when making a shio ramen. Nowadays,
+                a lot of shio ramen have a robust flavor thanks to the generous
+                umami of their sauce and dashi soup.
               </p>
             </article>
           </div>
-          <div class="basicRamen">
+          <div id="miso-ramen" class="basicRamen">
             <div class="basicRamenPhoto">
               <img
                 class="basicRamen-image"
@@ -138,7 +162,7 @@
               </p>
             </article>
           </div>
-          <div class="basicRamen">
+          <div id="tonkotsu-ramen" class="basicRamen">
             <div class="basicRamenPhoto">
               <img
                 class="basicRamen-image"
@@ -166,7 +190,7 @@
               </p>
             </article>
           </div>
-          <div class="basicRamen">
+          <div id="toripaitan-ramen" class="basicRamen">
             <div class="basicRamenPhoto">
               <img
                 class="basicRamen-image"
@@ -194,7 +218,7 @@
               </p>
             </article>
           </div>
-          <div class="basicRamen">
+          <div id="tsukemen" class="basicRamen">
             <div class="basicRamenPhoto">
               <img
                 class="basicRamen-image"
@@ -222,7 +246,7 @@
               </p>
             </article>
           </div>
-          <div class="basicRamen">
+          <div id="mazesoba" class="basicRamen">
             <div class="basicRamenPhoto">
               <img
                 class="basicRamen-image"
@@ -250,8 +274,6 @@
               </p>
             </article>
           </div>
-            
-           
         </div>
         <div id="basic-topping">
           <p>

@@ -1,8 +1,9 @@
 /*Wisdom page */
-/* Content display according to clicked menu */
 
+/* Variable declaration */
 let ramenConceptLink = document.querySelector('#ramen-link');
 let basicRamenLink = document.querySelector('#basic-link');
+let dropdown = document.querySelector('.dropdown-btn');
 let toppingLink = document.querySelector('#topping-link');
 let noodlesLink = document.querySelector('#noodles-link');
 let eatLink = document.querySelector('#eat-link');
@@ -19,6 +20,20 @@ let orderContent = document.querySelector('#how-to-order');
 let cyclopediaContent = document.querySelector('#ramencyclopedia');
 
 
+/*Function*/
+
+const dropdownMenu = () => {
+    dropdown.classList.toggle("active");
+    let dropdownContent = dropdown.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+}
+};
+
+/* Content display according to clicked menu */
+
 ramenConceptLink.addEventListener('click', function(){
     ramenConceptContent.style.display = 'block';
     basicRamenContent.style.display = 'none';
@@ -26,7 +41,6 @@ ramenConceptLink.addEventListener('click', function(){
     noodlesContent.style.display = 'none';
     eatContent.style.display = 'none';
     orderContent.style.display = 'none';
-    cyclopediaContent.style.display = 'none';
 });
 
 basicRamenLink.addEventListener('click', function(){
@@ -36,8 +50,10 @@ basicRamenLink.addEventListener('click', function(){
     noodlesContent.style.display = 'none';
     eatContent.style.display = 'none';
     orderContent.style.display = 'none';
-    cyclopediaContent.style.display = 'none';
+
+    dropdownMenu();
 });
+
 
 
 toppingLink.addEventListener('click', function(){
@@ -47,7 +63,6 @@ toppingLink.addEventListener('click', function(){
     noodlesContent.style.display = 'none';
     eatContent.style.display = 'none';
     orderContent.style.display = 'none';
-    cyclopediaContent.style.display = 'none';
 });
 
 
@@ -58,7 +73,6 @@ noodlesLink.addEventListener('click', function(){
     noodlesContent.style.display = 'block';
     eatContent.style.display = 'none';
     orderContent.style.display = 'none';
-    cyclopediaContent.style.display = 'none';
 });
 
 
@@ -69,7 +83,6 @@ eatLink.addEventListener('click', function(){
     noodlesContent.style.display = 'none';
     eatContent.style.display = 'block';
     orderContent.style.display = 'none';
-    cyclopediaContent.style.display = 'none';
 });
 
 
@@ -80,19 +93,8 @@ orderLink.addEventListener('click', function(){
     noodlesContent.style.display = 'none';
     eatContent.style.display = 'none';
     orderContent.style.display = 'block';
-    cyclopediaContent.style.display = 'none';
 });
 
-
-cyclopediaLink.addEventListener('click', function(){
-    ramenConceptContent.style.display = 'none';
-    basicRamenContent.style.display = 'none';
-    toppingContent.style.display = 'none';
-    noodlesContent.style.display = 'none';
-    eatContent.style.display = 'none';
-    orderContent.style.display = 'none';
-    cyclopediaContent.style.display = 'block';
-});
 
 /*Cooking page */
 /* Content display according to clicked menu */
