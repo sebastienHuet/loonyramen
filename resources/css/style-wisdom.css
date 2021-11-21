@@ -26,5 +26,27 @@
   #ramencyclopedia {
     display: none;
   }
-  
-  
+
+  .basicRamen{
+    display: flex;
+    margin-bottom: 1em;
+  }
+
+  .basicRamen-image{
+    width: 600px;
+    height: 450px;
+  }
+
+  .basicRamen-title{
+    font-weight:900;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+  }
+
+  .basicRamen-description{
+    margin-left: 1em;
+  }
+
+  .basicRamen-description p{
+    margin-bottom: 0.65em;
+  }
