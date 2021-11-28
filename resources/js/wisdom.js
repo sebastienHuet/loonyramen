@@ -1,15 +1,19 @@
 /*Wisdom page */
 
 /* Variable declaration */
+/*Side menu selection*/
 let ramenConceptLink = document.querySelector('#ramen-link');
 let basicRamenLink = document.querySelector('#basic-link');
-let dropdown = document.querySelector('.dropdown-btn');
 let toppingLink = document.querySelector('#topping-link');
 let noodlesLink = document.querySelector('#noodles-link');
 let eatLink = document.querySelector('#eat-link');
 let orderLink = document.querySelector('#order-link');
 
+/*Sub-menu of side menu*/
+let dropdown = document.querySelector('.dropdown-btn');
+let dropdownRamen = document.querySelector('.dropdown-ramen')
 
+/*Content according to side menu*/
 let ramenConceptContent = document.querySelector('#ramen');
 let basicRamenContent = document.querySelector('#basic-ramen');
 let toppingContent = document.querySelector('#basic-topping');
@@ -28,7 +32,7 @@ const dropdownMenu = () => {
     } else {
       dropdownContent.style.display = "block";
 }
-};
+}; 
 
 /* Content display according to clicked menu */
 
@@ -61,6 +65,7 @@ toppingLink.addEventListener('click', function(){
     noodlesContent.style.display = 'none';
     eatContent.style.display = 'none';
     orderContent.style.display = 'none';
+    dropdownRamen.style.display = 'none';
 });
 
 
@@ -71,6 +76,7 @@ noodlesLink.addEventListener('click', function(){
     noodlesContent.style.display = 'block';
     eatContent.style.display = 'none';
     orderContent.style.display = 'none';
+    dropdownRamen.style.display = 'none';
 });
 
 
@@ -81,6 +87,7 @@ eatLink.addEventListener('click', function(){
     noodlesContent.style.display = 'none';
     eatContent.style.display = 'block';
     orderContent.style.display = 'none';
+    dropdownRamen.style.display = 'none';
 });
 
 
@@ -91,4 +98,5 @@ orderLink.addEventListener('click', function(){
     noodlesContent.style.display = 'none';
     eatContent.style.display = 'none';
     orderContent.style.display = 'block';
+    dropdownRamen.style.display = 'none';
 });
