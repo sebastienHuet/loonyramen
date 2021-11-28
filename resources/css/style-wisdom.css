@@ -37,6 +37,13 @@
     margin-bottom: 1em;
   }
 
+  .basicRamen-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+  }
+
   .basicRamenPhoto{
     min-width: 600px;
     height: 450px;
@@ -46,11 +53,12 @@
 
   .border-img{
     border: solid black;
+    border-radius: 5%;
   }
 
   .basicRamen-image{
     width: 600px;
-    height: 450px;   
+    height: 450px;
   }
 
   .title{
