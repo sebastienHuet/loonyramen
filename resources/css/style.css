@@ -26,6 +26,7 @@ footer {
   background-color: cornsilk;
   display: flex;
   align-items: center;
+  transition: 0.4s;
 }
 
 .top-logo h1 {
