@@ -32,10 +32,6 @@
     display: none;
   }
   
-  #ramencyclopedia {
-    display: none;
-  }
-
   .basicRamen{
     display: flex;
     margin-bottom: 1em;
@@ -46,13 +42,13 @@
     height: 450px;
   }
 
-  .basicRamen-title{
+  .title{
     font-weight:900;
     font-size: 1.25em;
     margin-bottom: 1em;
   }
 
-  .basicRamen-description{
+  .description{
     margin-left: 1em;
   }
 
